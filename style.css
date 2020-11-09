@@ -55,7 +55,8 @@ h1 { margin: 20px 0;}
 
 /* 인사말(초대...) */
 #invitation {
-  margin: 50px 0;
+  /* margin: 50px 0; */
+  padding: 50px 0;
   padding-left: 35px;
   padding-right: 35px;
 }
@@ -68,6 +69,7 @@ h1 { margin: 20px 0;}
   padding-top: 1em;
   padding-bottom: 1em;
 }
+
 #invitation .phone .info span {
   font-weight: 700;
   font-size: 16px;
@@ -86,3 +88,9 @@ p, i { vertical-align: middle;}
   background: #b4dbdc;
 }
 #gallery .small_img li { padding: 0;}
+
+
+/* 오시는 길 */
+#location {
+  padding: 50px 0; 
+}
