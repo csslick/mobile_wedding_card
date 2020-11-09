@@ -15,8 +15,9 @@ body {
   color: #444;
 }
 
+section { padding: 40px 0;}
 h1 { 
-  margin: 20px 0;
+  margin-bottom: 40px;
   font-size: 28px;
 }
 .img-responsive { width: 100%; }
@@ -46,8 +47,7 @@ h1 {
   line-height: 1.4em;
 }
 #main > .title_text > h1 {
-  margin-bottom: 1em;
-  margin-top: 1em;
+  margin-top: 40px;
 }
 .address { margin-bottom: 1em;}
 .name { 
@@ -59,8 +59,6 @@ h1 {
 
 /* 인사말(초대...) */
 #invitation {
-  /* margin: 50px 0; */
-  padding: 20px 0;
   padding-left: 35px;
   padding-right: 35px;
 }
@@ -88,14 +86,14 @@ p, i { vertical-align: middle;}
 /* 갤러리 */
 #gallery {
   /* outline: 1px solid red; */
-  padding: 20px 0;
   padding-bottom: 40px;
-  background: #b4dbdc;
+  /* background: #b4dbdc; */
+  background: rgba(180,219,220,0.7);
 }
 #gallery .small_img li { padding: 0;}
 
 
 /* 오시는 길 */
 #location {
-  padding: 20px 0; 
+
 }
