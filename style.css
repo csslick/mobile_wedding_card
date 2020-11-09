@@ -47,14 +47,15 @@ h1 { margin: 20px 0;}
 .name { 
   font-size: 20px;
   font-weight: 700;
+  margin-bottom: 0.5em;
 }
 .name > span { font-size: small;}
 
 /* 인사말(초대...) */
 #invitation {
   margin: 50px 0;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 #invitation .phone {
@@ -64,5 +65,13 @@ h1 { margin: 20px 0;}
   margin-bottom: 50px;
   padding-top: 1em;
   padding-bottom: 1em;
-
 }
+#invitation .phone .info span {
+  font-weight: 700;
+  font-size: 16px;
+}
+.info a{
+  color: #444;
+  color: #557f80;
+}
+p, i { vertical-align: middle;}
