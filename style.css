@@ -9,8 +9,13 @@ a { text-decoration: none;}
 body {
   /* font-family: 'Nanum Gothic', sans-serif; */
   font-family: 'Nanum Myeongjo', serif;
-  font-size: 100%;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.8em;
+  color: #444;
 }
+
+h1 { margin: 20px 0;}
 
 #main {
   position: relative;
@@ -44,3 +49,20 @@ body {
   font-weight: 700;
 }
 .name > span { font-size: small;}
+
+/* 인사말(초대...) */
+#invitation {
+  margin: 50px 0;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#invitation .phone {
+  border-top: 2px solid #b4dbdc;
+  border-bottom: 2px solid #b4dbdc;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+}
