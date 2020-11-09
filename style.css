@@ -18,13 +18,16 @@ body {
   /* height: 100%; */
   height: 100vh;  /* 디바이스 높이 100% */
   background: #ccc;
+  /* 이미지 사이즈: 최소 750 x 1334 px */
   background-image: url(./images/title.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
 }
 #main > .title_text {
-  background: #ccc;
+  /* 배색: #b4dbdc */
+  background: #fff;
+  color: #557f80;
   position: absolute;
   width: 100%;
   bottom: 0;
@@ -37,6 +40,7 @@ body {
 }
 .address { margin-bottom: 1em;}
 .name { 
-  font-size: large;
+  font-size: 20px;
   font-weight: 700;
 }
+.name > span { font-size: small;}
