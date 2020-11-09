@@ -85,3 +85,4 @@ p, i { vertical-align: middle;}
   padding: 50px 0;
   background: #b4dbdc;
 }
+#gallery .small_img li { padding: 0;}
