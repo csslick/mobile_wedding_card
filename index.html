@@ -4,14 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>모바일 청첩장</title>
-  <link rel="stylesheet" href="./style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- 나눔고딕 -->
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
   <!-- 나눔명조 -->
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
   <!-- fontawesome -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- 사용자 CSS -->
+  <link rel="stylesheet" href="./grid.css">
+  <link rel="stylesheet" href="./style.css">
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
   <section id="main">
@@ -53,5 +56,21 @@
     </div>
   </section>
 
+  <section id="gallery">
+    <h1>갤러리</h1>
+    <div class="large_img">
+      <img 
+        class="img-responsive"
+        src="http://placeimg.com/750/400" alt="large image">
+    </div>
+    <div class="small_img container">
+      <ul class="row">
+        <li class="col_6"><img class="img-responsive" src="http://placeimg.com/750/400/animals/1" alt="small image"></li>
+        <li class="col_6"><img class="img-responsive" src="http://placeimg.com/750/400/animals/2" alt="small image"></li>
+        <li class="col_6"><img class="img-responsive" src="http://placeimg.com/750/400/animals/3" alt="small image"></li>
+        <li class="col_6"><img class="img-responsive" src="http://placeimg.com/750/400/animals/4" alt="small image"></li>
+      </ul>
+    </div>
+  </section>
 </body>
 </html>
